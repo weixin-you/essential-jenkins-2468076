@@ -25,11 +25,13 @@ pipeline {
             }
         }
         stage('Full path') {
+            steps{
                 script {
                     dir('./Ch03/03_03-run-scripts-from-the-pipeline/fibonacci.sh') {
                         sh './fibonacci.sh 10'
                     }
                 }
+            }
         }
         stage('Change directory') {
             steps {
