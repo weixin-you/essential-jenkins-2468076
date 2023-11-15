@@ -26,7 +26,11 @@ pipeline {
         }
         stage('Full path') {
             steps {
-                sh './Ch03/03_03-run-scripts-from-the-pipeline/fibonacci.sh 10'
+                script {
+                    def fullPath = sh(script: 'pwd', returnStdout: true).trim()
+                    sh "./Ch03/03_03-run-scripts-from-the-pipeline/fibonacci.sh ${env.NUMBER}"
+                    echo "Full path: ${fullPath}/Ch03/03_03-run-scripts-from-the-pipeline/fibonacci.sh"
+                }
             }
         }
         stage('Change directory') {
