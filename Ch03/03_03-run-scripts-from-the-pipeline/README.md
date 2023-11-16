@@ -7,7 +7,7 @@ The `sh()` build step is used to run shell commands on Linux, Unix, and macOS sy
 
 The `bat()` build step is used to run shell commands on Windows systems.
 
-## Paths to scripts
+## Paths to scripts ha
 Relative paths can be used to reference files from the root of the repo.
 ```
 sh(‘./scripts/build.sh’)
