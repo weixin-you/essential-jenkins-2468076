@@ -1,7 +1,7 @@
 # 03_03 Run scripts from the pipeline
 [![Build Status](http://3.16.74.44/buildStatus/icon?job=runscript)](http://3.16.74.44/job/runscript/)
 
-## Pipeline steps for calling scripts
+## Pipeline steps for calling scripts or
 
 The `sh()` build step is used to run shell commands on Linux, Unix, and macOS systems.
 
