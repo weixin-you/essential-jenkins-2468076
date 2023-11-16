@@ -1,4 +1,6 @@
 # 03_04 Add a status badge
+
+[![Build Status](http://3.16.74.44/buildStatus/icon?job=runscript)](http://3.16.74.44/job/runscript/)
 Status Badges are dynamically generated images that communicate whether a build is passing or failing.
 
 Following is an example status badge for a passing build:
