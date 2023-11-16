@@ -1,4 +1,6 @@
 # Jenkins Essential Training
+
+[![Build Status](http://3.16.74.44/buildStatus/icon?job=runscript)](http://3.16.74.44/job/runscript/)
 This is the repository for the LinkedIn Learning course Jenkins Essential Training. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![Jenkins Essential Training][lil-thumbnail-url] 
