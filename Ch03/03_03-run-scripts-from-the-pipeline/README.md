@@ -1,5 +1,6 @@
 # 03_03 Run scripts from the pipeline
-
+jenkins      366       1 34 14:45 ?        00:00:31 /usr/bin/java -Djava.awt.headless=true -jar /usr/share/java/jenkins.war --webroot=/var/cache/jenkins/war --httpPort=8080
+ubuntu      1377    1361  0 14:46 pts/0    00:00:00 grep --color=auto jenkins
 Pipelines can be used to call scripts that are stored in a repo along with a Jenkinsfile.
 
 ## Pipeline steps for calling scripts
