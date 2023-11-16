@@ -1,5 +1,5 @@
 # 03_03 Run scripts from the pipeline
-[![Build Status](http://3.16.74.44/buildStatus/icon?job=runscript&build=22)](http://3.16.74.44/job/runscript/22/git/)
+[![Build Status](http://3.16.74.44/buildStatus/icon?job=runscript)](http://3.16.74.44/job/runscript/)
 
 ## Pipeline steps for calling scripts or
 
